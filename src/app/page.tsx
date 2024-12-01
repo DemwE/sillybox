@@ -1,12 +1,15 @@
 'use client';
-import Image from "next/image";
 import {Button} from "@nextui-org/react";
+import Navigation from "@/components/navigation";
 
 export default function Home() {
   return (
-    <div className="">
-      Home page
-      <Button>Click me</Button>
-    </div>
+    <>
+      <Navigation/>
+      <div className="">
+        Home page
+        <Button>Click me</Button>
+      </div>
+    </>
   );
 }
